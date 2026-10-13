@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="40%" stop-color="#0b1329"/>
+      <stop offset="80%" stop-color="#0e1738"/>
+      <stop offset="100%" stop-color="#080c18"/>
+    </linearGradient>
+
+    <!-- Animated Core Glowing Gradient -->
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#c084fc;#38bdf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#c084fc;#34d399;#818cf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#34d399">
+        <animate attributeName="stop-color" values="#34d399;#38bdf8;#818cf8;#34d399" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Mesh Grid Pattern -->
+    <pattern id="meshGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" opacity="0.35"/>
+      <circle cx="40" cy="0" r="1.5" fill="#38bdf8" opacity="0.25"/>
+    </pattern>
+
+    <!-- Radial Glows -->
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#3b82f6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0b1329" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="pulseGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Filter for Glow effects -->
+    <filter id="neonBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="420" fill="url(#bgGradient)"/>
+  <rect width="1200" height="420" fill="url(#meshGrid)"/>
+  <ellipse cx="600" cy="210" rx="500" ry="190" fill="url(#centerGlow)"/>
+
+  <!-- DYNAMIC ANIMATED ARCHITECTURE / LIFECYCLE FLOW (Background/Midground) -->
+  <g id="dynamic-pipeline" opacity="0.85">
+    <!-- Connecting Flow Path 1 -->
+    <path id="path1" d="M 80 80 Q 300 20 600 80 T 1120 80" fill="none" stroke="#1e3a8a" stroke-width="2" stroke-dasharray="6,6"/>
+    <circle r="4" fill="#38bdf8" filter="url(#neonBlur)">
+      <animateMotion path="M 80 80 Q 300 20 600 80 T 1120 80" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle r="3" fill="#a855f7" filter="url(#neonBlur)">
+      <animateMotion path="M 80 80 Q 300 20 600 80 T 1120 80" dur="5s" begin="2.5s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Connecting Flow Path 2 (Lower Arch) -->
+    <path id="path2" d="M 80 340 Q 350 400 600 340 T 1120 340" fill="none" stroke="#1e293b" stroke-width="2" stroke-dasharray="8,6"/>
+    <circle r="4" fill="#34d399" filter="url(#neonBlur)">
+      <animateMotion path="M 80 340 Q 350 400 600 340 T 1120 340" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle r="3" fill="#38bdf8" filter="url(#neonBlur)">
+      <animateMotion path="M 80 340 Q 350 400 600 340 T 1120 340" dur="6s" begin="3s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Floating Interactive Lifecycle Pills (Animated Pulsing / Floating) -->
+    <!-- Pill 1: Design & Spec -->
+    <g transform="translate(110, 60)">
+      <rect width="130" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" opacity="0.9">
+        <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <circle cx="20" cy="17" r="4" fill="#38bdf8"/>
+      <text x="32" y="22" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">📐 API DESIGN</text>
+    </g>
+
+    <!-- Pill 2: Gateway Runtime -->
+    <g transform="translate(370, 45)">
+      <rect width="155" height="34" rx="17" fill="#0f172a" stroke="#818cf8" stroke-width="1.2" opacity="0.9">
+        <animate attributeName="stroke-opacity" values="1;0.3;1" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <circle cx="20" cy="17" r="4" fill="#818cf8"/>
+      <text x="32" y="22" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">⚡ API GATEWAY</text>
+    </g>
+
+    <!-- Pill 3: Developer Portal -->
+    <g transform="translate(680, 45)">
+      <rect width="150" height="34" rx="17" fill="#0f172a" stroke="#c084fc" stroke-width="1.2" opacity="0.9">
+        <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/>
+      </rect>
+      <circle cx="20" cy="17" r="4" fill="#c084fc"/>
+      <text x="32" y="22" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🌐 DEV PORTAL</text>
+    </g>
+
+    <!-- Pill 4: Governance & Security -->
+    <g transform="translate(950, 60)">
+      <rect width="150" height="34" rx="17" fill="#0f172a" stroke="#34d399" stroke-width="1.2" opacity="0.9">
+        <animate attributeName="stroke-opacity" values="0.8;0.2;0.8" dur="4.2s" repeatCount="indefinite"/>
+      </rect>
+      <circle cx="20" cy="17" r="4" fill="#34d399"/>
+      <text x="32" y="22" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🛡️ GOVERNANCE</text>
+    </g>
+
+    <!-- Bottom Decorative Floating Badges -->
+    <g transform="translate(240, 335)">
+      <rect width="140" height="30" rx="15" fill="#0f172a" stroke="#475569" stroke-width="1" opacity="0.85"/>
+      <text x="22" y="19" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">☁️ SAAS PLATFORMS</text>
+    </g>
+
+    <g transform="translate(530, 345)">
+      <rect width="145" height="30" rx="15" fill="#0f172a" stroke="#475569" stroke-width="1" opacity="0.85"/>
+      <text x="20" y="19" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">💻 OPEN SOURCE</text>
+    </g>
+
+    <g transform="translate(820, 335)">
+      <rect width="140" height="30" rx="15" fill="#0f172a" stroke="#475569" stroke-width="1" opacity="0.85"/>
+      <text x="24" y="19" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">📊 OBSERVABILITY</text>
+    </g>
+  </g>
+
+  <!-- FOREGROUND HERO CONTENT (Always on top, crisp and unobstructed) -->
+  <g id="foreground-hero" text-anchor="middle">
+    <!-- Category Badge -->
+    <rect x="495" y="130" width="210" height="28" rx="14" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2"/>
+    <text x="600" y="149" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">★ CURATED ECOSYSTEM ★</text>
+
+    <!-- Main Title -->
+    <text x="600" y="210" fill="url(#glowGradient)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.8))">
+      Awesome Full Lifecycle API Management
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="252" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="16" font-weight="500" letter-spacing="0.2">
+      Enterprise SaaS Platforms • High-Performance Open-Source Gateways • Developer Portals • API Governance
+    </text>
+
+    <!-- Tagline Bar -->
+    <text x="600" y="285" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400">
+      From API Design &amp; Mocking to Runtime Traffic Enforcement, Security, Analytics &amp; Monetization
+    </text>
+  </g>
+</svg>
