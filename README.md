@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Full-Lifecycle-API-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Full-Lifecycle-API-Management?style=flat-square&color=yellow" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Full-Lifecycle-API-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Full-Lifecycle-API-Management?style=flat-square&color=yellow" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Full-Lifecycle-API-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Full-Lifecycle-API-Management?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Full-Lifecycle-API-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Full-Lifecycle-API-Management?style=flat-square&color=green" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Full-Lifecycle-API-Management/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -71,117 +71,117 @@ A comparison of leading hosted API management solutions. The table is ordered by
 
 ## 💻 Open-Source GitHub Projects
 
-Explore the most popular open-source API gateways, developer portals, specifications, and contract testing tools. The list is sorted by **GitHub Stars** in descending order.
+Explore the most popular open-source API gateways, developer portals, specifications, and contract testing tools. The list is sorted by **GitHub_Stars** in descending order.
 
-1. **[Hoppscotch](https://github.com/hoppscotch/hoppscotch)** [![GitHub stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers)  
+1. **[Hoppscotch](https://github.com/hoppscotch/hoppscotch)** [![GitHub_Stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers)  
    *License: MIT* | ⭐ **80,000+ Stars**  
    Open-source, web-first API development ecosystem and testing suite. Fast, lightweight alternative to Postman supporting REST, GraphQL, and WebSocket protocols with team workspaces.
 
-2. **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
+2. **[Caddy](https://github.com/caddyserver/caddy)** [![GitHub_Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)  
    *License: Apache-2.0* | ⭐ **77,000+ Stars**  
    Fast, extensible multi-platform HTTP/2 and HTTP/3 reverse proxy and API gateway with automated TLS/HTTPS certificate provisioning via Let's Encrypt and modular Go architecture.
 
-3. **[Traefik](https://github.com/traefik/traefik)** [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
+3. **[Traefik](https://github.com/traefik/traefik)** [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
    *License: MIT* | ⭐ **65,000+ Stars**  
    Cloud-native HTTP reverse proxy and load balancer. Integrates seamlessly with Kubernetes Ingress, Docker, and Consul, featuring real-time automated service discovery, canary routing, and Let's Encrypt SSL.
 
-4. **[Bruno](https://github.com/usebruno/bruno)** [![GitHub stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers)  
+4. **[Bruno](https://github.com/usebruno/bruno)** [![GitHub_Stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers)  
    *License: MIT* | ⭐ **47,000+ Stars**  
    Fast, Git-friendly, offline-first open-source API client that stores collections directly as plain-text files in your local folders, eliminating vendor cloud locks and syncing easily with Git.
 
-5. **[Kong Gateway](https://github.com/Kong/kong)** [![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
+5. **[Kong Gateway](https://github.com/Kong/kong)** [![GitHub_Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
    *License: Apache-2.0* | ⭐ **44,000+ Stars**  
    The world's most adopted open-source microservice API gateway. Built on OpenResty/Nginx with a pluggable architecture for authentication (OAuth2, JWT, Key), rate limiting, traffic splitting, and observability.
 
-6. **[Kong Insomnia](https://github.com/Kong/insomnia)** [![GitHub stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)  
+6. **[Kong Insomnia](https://github.com/Kong/insomnia)** [![GitHub_Stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)  
    *License: Apache-2.0* | ⭐ **40,000+ Stars**  
    Open-source desktop API client and design tooling platform for GraphQL, REST, WebSockets, and gRPC. Features native Git sync and OpenAPI design editing.
 
-7. **[Backstage](https://github.com/backstage/backstage)** [![GitHub stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)  
+7. **[Backstage](https://github.com/backstage/backstage)** [![GitHub_Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)  
    *License: Apache-2.0* | ⭐ **34,000+ Stars**  
    Open platform for building developer portals created by Spotify. Centralizes service discovery, API documentation catalogs (OpenAPI, AsyncAPI, gRPC), software templates, and technical governance.
 
-8. **[Envoy Proxy](https://github.com/envoyproxy/envoy)** [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)  
+8. **[Envoy Proxy](https://github.com/envoyproxy/envoy)** [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)  
    *License: Apache-2.0* | ⭐ **29,000+ Stars**  
    Cloud-native high-performance edge and service proxy designed for modern cloud architectures. Powers service meshes (Istio) and serves as the data-plane engine for top enterprise API gateways.
 
-9. **[Swagger UI](https://github.com/swagger-api/swagger-ui)** [![GitHub stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social&color=white)](https://github.com/swagger-api/swagger-ui/stargazers)  
+9. **[Swagger UI](https://github.com/swagger-api/swagger-ui)** [![GitHub_Stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social&color=white)](https://github.com/swagger-api/swagger-ui/stargazers)  
    *License: Apache-2.0* | ⭐ **29,000+ Stars**  
    Standard visual rendering tool for generating interactive, browser-based API documentation directly from OpenAPI (Swagger) specifications with built-in "Try it out" execution.
 
-10. **[OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator)** [![GitHub stars](https://img.shields.io/github/stars/OpenAPITools/openapi-generator?style=social&color=white)](https://github.com/OpenAPITools/openapi-generator/stargazers)  
+10. **[OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenAPITools/openapi-generator?style=social&color=white)](https://github.com/OpenAPITools/openapi-generator/stargazers)  
     *License: Apache-2.0* | ⭐ **26,000+ Stars**  
     Universal code generator supporting 50+ client SDKs, server stubs, and documentation generators directly from OpenAPI (v2.0, v3.0, v3.1) definitions.
 
-11. **[Redoc](https://github.com/Redocly/redoc)** [![GitHub stars](https://img.shields.io/github/stars/Redocly/redoc?style=social&color=white)](https://github.com/Redocly/redoc/stargazers)  
+11. **[Redoc](https://github.com/Redocly/redoc)** [![GitHub_Stars](https://img.shields.io/github/stars/Redocly/redoc?style=social&color=white)](https://github.com/Redocly/redoc/stargazers)  
     *License: MIT* | ⭐ **25,000+ Stars**  
     Clean, responsive three-panel documentation generator for OpenAPI definitions with support for Markdown descriptions, schema drill-down, and code sample tabs.
 
-12. **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
+12. **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
     *License: Apache-2.0* | ⭐ **17,000+ Stars**  
     Ultra-high-performance dynamic API gateway built on Nginx and etcd. Provides hot-reloaded configuration, multi-protocol translation (HTTP, gRPC, MQTT), and native Kubernetes Ingress integration.
 
-13. **[Scalar](https://github.com/scalar/scalar)** [![GitHub stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers)  
+13. **[Scalar](https://github.com/scalar/scalar)** [![GitHub_Stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers)  
     *License: MIT* | ⭐ **16,000+ Stars**  
     Modern, interactive open-source API reference documentation tool and API client designed for OpenAPI and Swagger specifications with themeable UI and high accessibility.
 
-14. **[Netflix Zuul](https://github.com/Netflix/zuul)** [![GitHub stars](https://img.shields.io/github/stars/Netflix/zuul?style=social&color=white)](https://github.com/Netflix/zuul/stargazers)  
+14. **[Netflix Zuul](https://github.com/Netflix/zuul)** [![GitHub_Stars](https://img.shields.io/github/stars/Netflix/zuul?style=social&color=white)](https://github.com/Netflix/zuul/stargazers)  
     *License: Apache-2.0* | ⭐ **14,000+ Stars**  
     Java-based edge service gateway engineered by Netflix to deliver dynamic routing, monitoring, resilient load shedding, and security across massive microservice clusters.
 
-15. **[Tyk Gateway](https://github.com/TykTechnologies/tyk)** [![GitHub stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)  
+15. **[Tyk Gateway](https://github.com/TykTechnologies/tyk)** [![GitHub_Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)  
     *License: MPL-2.0* | ⭐ **10,000+ Stars**  
     Lightweight, fast, open-source API gateway written in Go. Features native GraphQL orchestration, token rate limiting, and polyglot plugin support (Go, Python, JS, gRPC).
 
-16. **[Apache ShenYu](https://github.com/apache/shenyu)** [![GitHub stars](https://img.shields.io/github/stars/apache/shenyu?style=social&color=white)](https://github.com/apache/shenyu/stargazers)  
+16. **[Apache ShenYu](https://github.com/apache/shenyu)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/shenyu?style=social&color=white)](https://github.com/apache/shenyu/stargazers)  
     *License: Apache-2.0* | ⭐ **8,800+ Stars**  
     High-performance asynchronous Java API gateway. Delivers dynamic routing, rate limiting, and observability for HTTP, Apache Dubbo, Spring Cloud, gRPC, and SOFA protocols.
 
-17. **[Ocelot](https://github.com/ThreeMammals/Ocelot)** [![GitHub stars](https://img.shields.io/github/stars/ThreeMammals/Ocelot?style=social&color=white)](https://github.com/ThreeMammals/Ocelot/stargazers)  
+17. **[Ocelot](https://github.com/ThreeMammals/Ocelot)** [![GitHub_Stars](https://img.shields.io/github/stars/ThreeMammals/Ocelot?style=social&color=white)](https://github.com/ThreeMammals/Ocelot/stargazers)  
     *License: MIT* | ⭐ **8,700+ Stars**  
     Open-source API gateway built specifically for .NET and ASP.NET Core microservice architectures, featuring routing, request aggregation, authentication, and Consul service discovery.
 
-18. **[Mockoon](https://github.com/mockoon/mockoon)** [![GitHub stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers)  
+18. **[Mockoon](https://github.com/mockoon/mockoon)** [![GitHub_Stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers)  
     *License: MIT* | ⭐ **8,400+ Stars**  
     Fastest way to design, configure, and run mock APIs locally. Supports proxy mode, regex routing, automated latency injection, and CLI dockerization for CI pipelines.
 
-19. **[WireMock](https://github.com/wiremock/wiremock)** [![GitHub stars](https://img.shields.io/github/stars/wiremock/wiremock?style=social&color=white)](https://github.com/wiremock/wiremock/stargazers)  
+19. **[WireMock](https://github.com/wiremock/wiremock)** [![GitHub_Stars](https://img.shields.io/github/stars/wiremock/wiremock?style=social&color=white)](https://github.com/wiremock/wiremock/stargazers)  
     *License: Apache-2.0* | ⭐ **7,300+ Stars**  
     Flexible HTTP-based API simulation tool. Enables verification of edge failures, stateful scenarios, response templating, and record-and-playback mocking for automated testing.
 
-20. **[Stoplight Prism](https://github.com/stoplightio/prism)** [![GitHub stars](https://img.shields.io/github/stars/stoplightio/prism?style=social&color=white)](https://github.com/stoplightio/prism/stargazers)  
+20. **[Stoplight Prism](https://github.com/stoplightio/prism)** [![GitHub_Stars](https://img.shields.io/github/stars/stoplightio/prism?style=social&color=white)](https://github.com/stoplightio/prism/stargazers)  
     *License: Apache-2.0* | ⭐ **5,000+ Stars**  
     Open-source HTTP mock and proxy server that parses OpenAPI v2/v3 documents to generate contract-compliant mock APIs with automatic request and response validation.
 
-21. **[Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway)** [![GitHub stars](https://img.shields.io/github/stars/spring-cloud/spring-cloud-gateway?style=social&color=white)](https://github.com/spring-cloud/spring-cloud-gateway/stargazers)  
+21. **[Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway)** [![GitHub_Stars](https://img.shields.io/github/stars/spring-cloud/spring-cloud-gateway?style=social&color=white)](https://github.com/spring-cloud/spring-cloud-gateway/stargazers)  
     *License: Apache-2.0* | ⭐ **4,900+ Stars**  
     Reactive API gateway built on Spring Framework and Project Reactor. Designed for Java ecosystems seeking non-blocking routing, security filters, and circuit breaking.
 
-22. **[Emissary-Ingress](https://github.com/emissary-ingress/emissary)** [![GitHub stars](https://img.shields.io/github/stars/emissary-ingress/emissary?style=social&color=white)](https://github.com/emissary-ingress/emissary/stargazers)  
+22. **[Emissary-Ingress](https://github.com/emissary-ingress/emissary)** [![GitHub_Stars](https://img.shields.io/github/stars/emissary-ingress/emissary?style=social&color=white)](https://github.com/emissary-ingress/emissary/stargazers)  
     *License: Apache-2.0* | ⭐ **4,500+ Stars**  
     Kubernetes-native API gateway and ingress controller built on Envoy Proxy (formerly known as Ambassador). Handles ingress routing, TLS termination, and OAuth integration via CRDs.
 
-23. **[Stoplight Spectral](https://github.com/stoplightio/spectral)** [![GitHub stars](https://img.shields.io/github/stars/stoplightio/spectral?style=social&color=white)](https://github.com/stoplightio/spectral/stargazers)  
+23. **[Stoplight Spectral](https://github.com/stoplightio/spectral)** [![GitHub_Stars](https://img.shields.io/github/stars/stoplightio/spectral?style=social&color=white)](https://github.com/stoplightio/spectral/stargazers)  
     *License: Apache-2.0* | ⭐ **3,200+ Stars**  
     Flexible JSON/YAML and OpenAPI linter for automating API style guides, structural checks, and contract validation within continuous integration pipelines.
 
-24. **[KrakenD](https://github.com/krakend/krakend-ce)** [![GitHub stars](https://img.shields.io/github/stars/krakend/krakend-ce?style=social&color=white)](https://github.com/krakend/krakend-ce/stargazers)  
+24. **[KrakenD](https://github.com/krakend/krakend-ce)** [![GitHub_Stars](https://img.shields.io/github/stars/krakend/krakend-ce?style=social&color=white)](https://github.com/krakend/krakend-ce/stargazers)  
     *License: Apache-2.0* | ⭐ **2,600+ Stars**  
     Ultra-performant, stateless API gateway written in Go. Capable of handling tens of thousands of requests per second with negligible memory footprints and zero external database dependencies.
 
-25. **[Apache APISIX Dashboard](https://github.com/apache/apisix-dashboard)** [![GitHub stars](https://img.shields.io/github/stars/apache/apisix-dashboard?style=social&color=white)](https://github.com/apache/apisix-dashboard/stargazers)  
+25. **[Apache APISIX Dashboard](https://github.com/apache/apisix-dashboard)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/apisix-dashboard?style=social&color=white)](https://github.com/apache/apisix-dashboard/stargazers)  
     *License: Apache-2.0* | ⭐ **1,200+ Stars**  
     Visual control plane for Apache APISIX. Allows administrators to visually configure routes, upstreams, SSL certificates, consumer rate limits, and custom plugins.
 
-26. **[WSO2 API Manager](https://github.com/wso2/product-apim)** [![GitHub stars](https://img.shields.io/github/stars/wso2/product-apim?style=social&color=white)](https://github.com/wso2/product-apim/stargazers)  
+26. **[WSO2 API Manager](https://github.com/wso2/product-apim)** [![GitHub_Stars](https://img.shields.io/github/stars/wso2/product-apim?style=social&color=white)](https://github.com/wso2/product-apim/stargazers)  
     *License: Apache-2.0* | ⭐ **1,000+ Stars**  
     Comprehensive enterprise open-source API management suite. Features API Publisher, Developer Portal, API Gateway runtime, Key Manager, and streaming API analytics.
 
-27. **[Gravitee.io API Management](https://github.com/gravitee-io/gravitee-api-management)** [![GitHub stars](https://img.shields.io/github/stars/gravitee-io/gravitee-api-management?style=social&color=white)](https://github.com/gravitee-io/gravitee-api-management/stargazers)  
+27. **[Gravitee.io API Management](https://github.com/gravitee-io/gravitee-api-management)** [![GitHub_Stars](https://img.shields.io/github/stars/gravitee-io/gravitee-api-management?style=social&color=white)](https://github.com/gravitee-io/gravitee-api-management/stargazers)  
     *License: Apache-2.0* | ⭐ **450+ Stars**  
     Open-core, event-native API management solution. Features drag-and-drop policy designer, developer portal, real-time alert engine, and protocol mediation for REST, GraphQL, and Kafka.
 
-28. **[Solo.io Gloo Edge](https://github.com/solo-io/gloo)** [![GitHub stars](https://img.shields.io/github/stars/solo-io/gloo?style=social&color=white)](https://github.com/solo-io/gloo/stargazers)  
+28. **[Solo.io Gloo Edge](https://github.com/solo-io/gloo)** [![GitHub_Stars](https://img.shields.io/github/stars/solo-io/gloo?style=social&color=white)](https://github.com/solo-io/gloo/stargazers)  
     *License: Apache-2.0* | ⭐ **170+ Stars**  
     Feature-rich Kubernetes-native ingress controller and API gateway built on Envoy Proxy. Supports legacy microservices, gRPC, GraphQL, and serverless functions with zero configuration drift.
 
